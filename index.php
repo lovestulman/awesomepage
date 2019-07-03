@@ -4,6 +4,7 @@
 			echo "Access granted.";
 		}
 	}
+	echo $date;
 ?>
 
 <!-- This is totally not a flag: CTF{totall5_n0t_4_Fl4g} -->
