@@ -1,6 +1,6 @@
 <?php
 	echo phpinfo();
-	if (isset($_POST['password'] === "Some password")) {
+	if (isset($_POST['password']) === "Some password") {
 		echo "Access granted.";
 	}
 ?>
