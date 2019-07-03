@@ -1,6 +1,6 @@
 <?php
-	echo phpinfo();
-	if (isset($_POST['password']) === "Some password") {
+	print_r($_GET);
+	if (isset($_GET['password']) === "Some password") {
 		echo "Access granted.";
 	}
 ?>
@@ -10,10 +10,13 @@
 	<html>
 	</html>
 
+	<H1>Welcome to the secret website. Please enter your password:</h1>
 	<body background="#ubuntu">
 	<form name="login">
 		<input name="password" type="password" />
-	</body>
+	</form>
 
+	<p>Source distributed by github. <a href="https://github.com/lovestulman/awesomepage">Awesome page</a></p>
+	</body>
 </html>
 
