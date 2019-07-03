@@ -1,6 +1,6 @@
 <?php
 	print_r($_GET);
-	if (isset($_GET['password']) === "Some password") {
+	if (isset($_GET['password']) == "CTF_{917_9r3P_H3lP5_y0u_F1nd_7H3_wAy}") {
 		echo "Access granted.";
 	}
 ?>
