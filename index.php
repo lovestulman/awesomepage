@@ -1,7 +1,8 @@
 <?php
-	print_r($_GET);
-	if (isset($_GET['password']) == "CTF_{917_9r3P_H3lP5_y0u_F1nd_7H3_wAy}") {
-		echo "Access granted.";
+	if (isset($_GET['password'])) {
+		if (md5($_GET['password']) == "cf981a8a90db57ac2e8ef319befad377") {
+			echo "Access granted.";
+		}
 	}
 ?>
 
